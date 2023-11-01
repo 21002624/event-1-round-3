@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin Pad</title>
+    <link rel="stylesheet" type="text/css" href="pinpad.css">
+</head>
+<body>
+    
+    <div class="pin-container">
+        <h1>Conselium Detectus</h1>
+        <div id="pin-display"></div>
+        <div class="keypad">
+            <button onclick="appendToPin(1)">1</button>
+            <button onclick="appendToPin(2)">2</button>
+            <button onclick="appendToPin(3)">3</button>
+            <button onclick="appendToPin(4)">4</button>
+            <button onclick="appendToPin(5)">5</button>
+            <button onclick="appendToPin(6)">6</button>
+            <button onclick="appendToPin(7)">7</button>
+            <button onclick="appendToPin(8)">8</button>
+            <button onclick="appendToPin(9)">9</button>
+            <button onclick="clearPin()">C</button>
+            <button onclick="appendToPin(0)">0</button>
+            <button onclick="submitPin()">Submit</button>
+        </div>
+    </div>
+    <script src="pinpad.js"></script>
+</body>
+</html>
